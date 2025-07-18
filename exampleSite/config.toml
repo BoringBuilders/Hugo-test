@@ -1,21 +1,21 @@
-baseURL = "https://example.micro.blog"
+baseURL = "https://gages-test.micro.blog"
 languageCode = "en-us"
 title = "My Micro.Blog"
 
 theme = "minimal_microblog_theme"
 
 [params]
-logo = "/images/logo.png"
+logo = "https://gages-test.micro.blog/uploads/2025/logo.png"
 about = "Hi! I'm a minimalist blogger and developer. I use this space to write, share my work, and connect with like-minded folks."
 external_links = "- [GitHub](https://github.com/username)\n- [LinkedIn](https://linkedin.com/in/username)\n- [Twitter](https://twitter.com/username)"
 subscribe = "Subscribe to my blog using [RSS](/index.xml)."
 portfolio_text = "[View my full portfolio](/portfolio) to see more projects and case studies."
 portfolio_images = [
-  "/images/portfolio1.jpg",
-  "/images/portfolio2.jpg",
-  "/images/portfolio3.jpg",
-  "/images/portfolio4.jpg",
-  "/images/portfolio5.jpg",
-  "/images/portfolio6.jpg"
+  "https://gages-test.micro.blog/uploads/2025/portfolio1.jpeg",
+  "https://gages-test.micro.blog/uploads/2025/portfolio2.jpeg",
+  "https://gages-test.micro.blog/uploads/2025/portfolio3.jpeg",
+  "https://gages-test.micro.blog/uploads/2025/portfolio4.jpeg",
+  "https://gages-test.micro.blog/uploads/2025/portfolio5.jpeg",
+  "https://gages-test.micro.blog/uploads/2025/portfolio6.jpeg"
 ]
 projects = "### Open Source Projects\n\n- **MicroFeed**: A Hugo-based aggregator for personal blogs.\n- **SlabUI**: A CSS toolkit based on slab-serif typography.\n- **NoteDock**: A simple Markdown-powered note app."

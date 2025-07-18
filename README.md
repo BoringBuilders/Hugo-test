@@ -12,4 +12,4 @@ A minimalist Hugo theme compatible with Micro.Blog. Responsive layout with two-c
 theme = "minimal_microblog_theme"
 ```
 
-4. Use `.Site.Params` in `config.toml` or `config.yaml` to populate the various content sections.
+4. Use `.Site.Params` in `config.toml` to populate the various content sections.

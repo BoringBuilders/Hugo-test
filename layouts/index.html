@@ -120,11 +120,13 @@
       <section class="section">
         <h1>Portfolio</h1>
         <div class="divider"></div>
-        <div class="portfolio-grid">
-          {{ range first 6 .Site.Params.portfolio_images }}
-            <img src="{{ . }}" alt="Portfolio image" />
-          {{ end }}
-        </div>
+        {{ with .Site.Params.portfolio_images }}
+          <div class="portfolio-grid">
+            {{ range first 6 . }}
+              <img src="{{ . }}" alt="Portfolio image" />
+            {{ end }}
+          </div>
+        {{ end }}
         <div class="text-area">
           {{ .Site.Params.portfolio_text | markdownify }}
         </div>

@@ -1,0 +1,8 @@
+name = "Minimal Microblog Theme"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A minimalist Micro.Blog-compatible Hugo theme"
+homepage = "https://micro.blog"
+tags = ["minimal", "microblog", "responsive", "portfolio"]
+features = ["responsive layout", "custom sections"]
+min_version = "0.80.0"
